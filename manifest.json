@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "SA-MP Forums Link Fixer",
+	"version": "1.0",
+	"description": "Fixes censored YouTube links on the SA-MP Forums.",
+	"icons": {
+		"16": "img/logo16.png",
+		"32": "img/logo32.png",
+		"48": "img/logo48.png",
+		"128": "img/logo128.png"
+	},
+	"page_action": {
+		"default_icon": {
+			"16": "img/logo16.png",
+			"32": "img/logo32.png",
+			"48": "img/logo48.png",
+			"128": "img/logo128.png"
+		}
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"declarativeContent"
+	],
+	"content_scripts": [{
+		"matches": ["*://forum.sa-mp.com/*"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	}]
+}
