@@ -18,7 +18,7 @@
 		}
 	},
 	"background": {
-		"scripts": ["background.js"],
+		"scripts": ["js/background.js"],
 		"persistent": false
 	},
 	"permissions": [
@@ -26,7 +26,7 @@
 	],
 	"content_scripts": [{
 		"matches": ["*://forum.sa-mp.com/*"],
-		"js": ["content.js"],
+		"js": ["js/content.js"],
 		"run_at": "document_end"
 	}]
 }
