@@ -1,2 +1,2 @@
 # samp-forums-link-fixer
-Fixes censored YouTube links on the SA-MP Forums.
+Google Chrome extension to fix censored YouTube links on the SA-MP Forums.
