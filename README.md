@@ -14,4 +14,4 @@ Description
 - Video demonstration: https://www.youtube.com/watch?v=qBIpGo_E5YQ.
 - The extension uses a page action icon shown in the browser toolbar.
 - The icon will be **full-color** when users navigate to a URL that contains `forum.sa-mp.com`, showing that the extension is **active** and will be **grey-scale** when users navigate to any other URL, showing that the extension is **inactive**.
-- When the extension is active, it will scan the HTML document for any hyperlinks that look like a typical censored youtube video URL and replace the censored URL with a working one. If the hyperlink text is also censored, it will be repaired as well.
+- When the extension is active, it will scan the HTML document for any hyperlinks that look like a typical censored YouTube video URL and replace the censored URL with a working one. If the hyperlink text is also censored, it will be repaired as well.
