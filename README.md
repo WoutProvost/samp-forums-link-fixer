@@ -4,7 +4,10 @@
 
 Google Chrome extension to fix censored YouTube links on the SA-MP Forums.
 
-## Installation
+## Chrome Web Store Installation
+The extension is published on the Chrome Web Store at: https://chrome.google.com/webstore/detail/sa-mp-forums-link-fixer/mholjpgmjkogjknijenkmomljgdalahj
+
+## Manual Installation
 1. Clone or download this repository and put the directory where you want.
 2. Open the **Extension Management** page by navigating to `chrome://extensions` in the browser.
 3. Enable **Developer Mode** by clicking the toggle switch next to **Developer mode**.
