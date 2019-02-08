@@ -4,6 +4,10 @@
 
 Google Chrome extension to fix censored YouTube links on the SA-MP Forums.
 
+## Userscript Installation
+1. Install the Tampermonkey extension for your browser.
+2. Go to https://raw.githubusercontent.com/WoutProvost/samp-forums-link-fixer/master/sa-mp-links.user.js to install the userscript.
+
 ## Chrome Web Store Installation
 The extension is published on the Chrome Web Store at: https://chrome.google.com/webstore/detail/sa-mp-forums-link-fixer/mholjpgmjkogjknijenkmomljgdalahj
 
