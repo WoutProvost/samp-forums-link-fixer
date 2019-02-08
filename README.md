@@ -1,5 +1,6 @@
 # samp-forums-link-fixer
-**As of 30/11/2018 this extension is no longer needed, since YouTube links aren't blocked anymore.**
+~~**As of 30/11/2018 this extension is no longer needed, since YouTube links aren't blocked anymore.**~~
+**YouTube links are blocked again!**
 
 Google Chrome extension to fix censored YouTube links on the SA-MP Forums.
 
