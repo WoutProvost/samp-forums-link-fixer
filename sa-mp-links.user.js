@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          SA-MP Forums Link Fixer
 // @namespace     https://github.com/WoutProvost/samp-forums-link-fixer
-// @version       1.0
+// @version       1.0.1
 // @description   Userscript to fix censored YouTube links on the SA-MP Forums
 // @author        Freaksken - Script creation (https://github.com/WoutProvost)
 // @author        Jamie - Userscript "conversion" (https://github.com/jtylr)
