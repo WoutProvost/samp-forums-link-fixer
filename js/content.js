@@ -10,7 +10,10 @@ for(var i = 0; i < elements.length; i++) {
 
 		if(href_original !== href_replaced) {
 			elements[i].setAttribute("href", href_replaced);
-			elements[i].text = text_replaced;
+
+			if(elements[i].firstChild.nodeType === Node.TEXT_NODE) {
+				elements[i].text = text_replaced;
+			}
 
 			// if(text_original != text_replaced) {
 			// 	console.log("Replaced href %s with %s and text %s with %s.", href_original, href_replaced, text_original, text_replaced);
