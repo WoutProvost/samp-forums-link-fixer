@@ -29,7 +29,7 @@ for(var i = 0; i < elements.length; i++) {
 
 	if(post_original) {
 		var post_replaced = post_original;
-		var matches = Array.from(post_original.matchAll(/\[ame\](.*?)\[\/ame\]/g));
+		var matches = Array.from(post_original.matchAll(/\[ame(?:\]|(?:="))(.*?)(?:"\].*?)?\[\/ame\]/g));
 
 		if(matches.length != 0) {
 			for(var j = 0; j < matches.length; j++) {
