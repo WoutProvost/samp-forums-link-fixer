@@ -1,6 +1,7 @@
 # samp-forums-link-fixer
 ~~**As of 30/11/2018 this script is no longer needed, since YouTube links aren't blocked anymore.**~~
-**As of 08/02/2019 YouTube links are blocked again!**
+~~**As of 08/02/2019 YouTube links are blocked again!**~~
+**As of 25/09/2020 the SA:MP forums are no longer a thing.**
 
 Script to fix censored YouTube links and embedded video players on the SA-MP Forums.
 
